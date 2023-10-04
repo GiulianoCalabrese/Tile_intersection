@@ -1,6 +1,7 @@
 # Tile_intersection
 
-![Employee data](CaptureEsempio.png?raw=true "Tile intersection")
+<img src="CaptureEsempio.png" alt="Tile intersection" title="Tile intersection">
+
 
 
 Take data here : https://sentinels.copernicus.eu/ca/web/sentinel/missions/sentinel-2/acquisition-plans
