@@ -1,6 +1,6 @@
 # Tile_intersection
 
-<img src="CaptureEsempio.png" alt="Tile intersection" title="Tile intersection">
+<img src="/CaptureEsempio.PNG" alt="Tile intersection" title="Tile intersection">
 
 
 
