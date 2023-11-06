@@ -52,19 +52,28 @@ for j in range(len(mapocean)):
     if sum(result2) > 0 :
         count2 += 1
 
-    
 
 print("\n Intersection are : "+str(count)+"\n")
 print("\n Intersection2 are : "+str(count2)+"\n")
 
 import matplotlib.pyplot as plt
 
-
+"""
 ax = (mapocean).plot(color="blue")
 (polystot).plot(color="red",ax = ax)
 (polystot.sjoin(mapocean)).plot(color="green",ax = ax)
 plt.show()
+"""
 
+test = polystot.intersection(mapocean.geometry)
+print(test)
+count = 0
+for j in range(len(mapocean)):
+    temp = mapocean.iloc[j].geometry
+    result = test.intersects(temp)
+    if sum(result) > 0 :
+        count += 1
+print("\n Intersection are : "+str(count)+"\n")
 
 ################## With TILPAR map, a global worlds grid #######################
 
